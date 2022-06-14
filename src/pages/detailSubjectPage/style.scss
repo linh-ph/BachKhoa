@@ -1,0 +1,54 @@
+.detail-subject {
+  background-color: #fff;
+  min-height: 750px;
+  //   border: 1px solid rgb(180, 180, 180);
+  border-radius: 10px;
+  box-shadow: rgba(152, 152, 160, 0.2) 0px 7px 29px 0px;
+
+  padding: 0 40px;
+
+  h1 {
+    font-size: 36px;
+    // text-align: center;
+    font-weight: 700;
+  }
+
+  .new-topic-btn {
+    border-radius: 5px;
+    height: 50px;
+  }
+
+  .search-discussion {
+    border-radius: 5px;
+    height: 50px;
+  }
+}
+
+.enroll-subject {
+  background-color: #fff;
+  min-height: 150px;
+  width: 300px;
+  //   border: 1px solid rgb(180, 180, 180);
+  border-radius: 10px;
+  box-shadow: rgba(152, 152, 160, 0.2) 0px 7px 29px 0px;
+
+  padding: 0 40px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  p {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  Button {
+    height: 40px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+  }
+}

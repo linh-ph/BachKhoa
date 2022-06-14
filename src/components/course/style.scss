@@ -1,0 +1,18 @@
+.course-card {
+  width: "100%";
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  border-radius: 15px;
+  overflow: hidden;
+
+  img {
+    height: 310px;
+  }
+
+  .course-link {
+    color: #000;
+  }
+
+  a.course-link:hover {
+    color: rgb(0, 68, 255);
+  }
+}

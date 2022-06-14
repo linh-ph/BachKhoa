@@ -1,0 +1,48 @@
+.login-page {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(202, 202, 202, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ 
+.login-main {
+    width: 500px;
+    height: 450px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    boxShadow: "0 0 25px rgb(0 0 0 / 10%)",
+}
+
+.login-main-title > h1 {
+        
+          margin: 0;
+          text-align: center;
+          font-weight: 800;
+}
+
+.login-main-title > p {
+        
+    color: gray;
+    margin: 0;
+    font-size: 16px;
+}
+
+#login-form {
+    width: 350px;
+    /* box-shadow: 0 0 25px rgb(0 0 0 / 10%) */
+}
+
+.forgot-password {
+    display: flex;
+    justify-content: flex-end;
+}
+

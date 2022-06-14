@@ -1,0 +1,60 @@
+.detail-blog {
+  background-color: #fff;
+  min-height: 750px;
+  //   border: 1px solid rgb(180, 180, 180);
+  border-radius: 10px;
+  box-shadow: rgba(152, 152, 160, 0.2) 0px 7px 29px 0px;
+
+  h1 {
+    margin: 20px 0 0 0;
+    font-size: 32px;
+    // text-align: center;
+    font-weight: 700;
+  }
+  .post-tag {
+    // font-style: italic;
+    margin: 10px 0 30px 0;
+  }
+
+  .btn-like {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+  }
+
+  .like-icon {
+    font-size: 25px;
+    // color: red;
+  }
+  .liked {
+    color: red;
+  }
+
+  .comment-area {
+    // background-color: rgb(218, 218, 218);
+    padding: 20px;
+    border-radius: 5px;
+
+    .add-comment {
+      display: flex;
+      justify-content: space-between;
+      // margin-bottom: 50px;
+      TextArea {
+        width: 870px;
+        border-radius: 10px;
+      }
+    }
+
+    .comment-btn {
+      width: 870px;
+      margin: 10px 0;
+
+      Button {
+        height: 40px;
+        border-radius: 5px;
+        font-weight: 700;
+        margin-right: 20px;
+      }
+    }
+  }
+}

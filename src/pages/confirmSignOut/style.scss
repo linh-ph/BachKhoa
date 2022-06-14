@@ -1,0 +1,19 @@
+.sign-out {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+
+  h1 {
+    font-weight: 700;
+    font-size: 36px;
+  }
+
+  Button {
+    height: 40px;
+    width: 150px;
+    font-weight: 700;
+    border-radius: 5px;
+  }
+}

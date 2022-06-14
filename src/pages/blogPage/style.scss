@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,600;1,700&display=swap");
+
+.blog-page {
+  padding: 0 400px;
+  min-height: 700px;
+
+  .forum-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-size: 56px;
+      font-weight: bold;
+      font-style: italic;
+      font-family: "Noto Serif Display", serif;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .create-post-btn {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: 700;
+  }
+
+  .blog-list {
+    margin: 10px;
+  }
+}

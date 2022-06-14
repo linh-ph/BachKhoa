@@ -1,0 +1,33 @@
+.edit-account-container {
+  padding: 30px;
+
+  h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .edit-form {
+    label {
+      font-weight: 700;
+    }
+
+    Input {
+      border-radius: 5px;
+    }
+
+    span.ant-input-affix-wrapper {
+      //   height: 50px;
+      border-radius: 5px;
+      Input {
+        height: 50px;
+      }
+    }
+
+    Button {
+      margin-top: 20px;
+      border-radius: 5px;
+      height: 50px;
+      font-weight: 700;
+    }
+  }
+}

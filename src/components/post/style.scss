@@ -1,0 +1,28 @@
+.blog-card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  // height: 250px;
+  border-radius: 10px;
+
+  .post-link {
+    color: #000;
+  }
+
+  a.post-link:hover {
+    color: rgb(0, 68, 255);
+  }
+
+  .post-description {
+    // height: 30px;
+    margin-right: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+  }
+  // .post-link :hover {
+  //   color: rgb(155, 164, 216);
+  // }
+}
+
+// .blog-card:hover {
+//   opacity: 0;
+// }
